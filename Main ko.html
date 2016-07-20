@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULATOR KO</title>
+</head>
+<body>
+	<h2>calculator</h2>
+	<form name="calc">
+	 <table border="2">
+	  <tbody>
+	 	<tr><td colspan="4"></td></tr>
+	 	<tr>
+	 		<td><input type="button" onclick="calc.display.value+='1'"  value="1"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='2'"  value="2"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='3'"  value="3"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='+'"  value="+"></input></td>
+	 	</tr>
+	 	<tr>
+	 		<td><input type="button" onclick="calc.display.value+='4'"  value="4"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='5'"  value="5"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='6'"  value="6"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='-'"  value="-"></input></td>
+	 	</tr>
+	 	<tr>
+	 		<td><input type="button" onclick="calc.display.value+='7'"  value="7"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='8'"  value="8"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='9'"  value="9"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='x'"  value="x"></input></td>
+	 	</tr>
+	 	<tr>
+	 		<td><input type="button" onclick="calc.display.value+=' '"  value="C"></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='0'"  value="0"></input></td>
+	 		<td><input type="button" onclick="calc.display.value=eval(calc.display.value)''"  value="="></input></td>
+	 		<td><input type="button" onclick="calc.display.value+='/'"  value="/"></input></td>
+	 	</tr>
+	   </tbody>
+	  </table>
+	 </form>
+</body>
+</html>

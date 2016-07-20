@@ -1,0 +1,44 @@
+#cal{
+	background-color: black;
+	margin: 60px auto 0 auto;
+	height: 100px;
+	width: 200px;
+	border: 10px red solid;
+	float: left;
+	text-align: center;
+	margin-left: 300px;
+}
+
+.key{
+	margin: 60px auto 0 auto;
+	height: 50px;
+	width: 50px;
+	float: right;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 100px;
+	background-color: blue;
+	border-radius: 20px;
+}
+.keyc{
+	margin: 60px auto 0 auto;
+	height: 50px;
+	width: 50px;
+	float: right;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 100px;
+	background-color: blue;
+	border-radius: 20px;
+}
+.key9{
+	margin: 60px auto 0 auto;
+	height: 50px;
+	width: 50px;
+	float: right;
+	text-align: center;
+	margin-left: 0px;
+	margin-top: 100px;
+	background-color: blue;
+	border-radius: 20px;
+}
